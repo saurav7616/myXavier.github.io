@@ -18,7 +18,6 @@ async function fetchData(endpoint) {
     console.log(`Data fetched from ${endpoint}:`, data);
     return data;
 }
-
 // Function to process data
 function processData(data) {
     console.log("Processing data...");
