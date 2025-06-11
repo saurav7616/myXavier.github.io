@@ -206,7 +206,7 @@ function calculateAverage(arr) {
     return sum / arr.length;
 }
 
-console.log('Average: test change', calculateAverage([1, 2, 3, 4, 5]));
+console.log('Average:', calculateAverage([1, 2, 3, 4, 5]));
 
 // Dummy function to generate Fibonacci sequence
 function generateFibonacci(n) {
