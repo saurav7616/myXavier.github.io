@@ -208,15 +208,6 @@ function calculateAverage(arr) {
 
 console.log('Average: test ch', calculateAverage([1, 2, 3, 4, 5]));
 
-// Dummy function to generate Fibonacci sequence
-function generateFibonacci(n) {
-    const fib = [0, 1];
-    for (let i = 2; i < n; i++) {
-        fib.push(fib[i - 1] + fib[i - 2]);
-    }
-    return fib;
-}
-
 console.log('Fibonacci Sequence:', generateFibonacci(10));
 
 // Dummy function to capitalize a string
