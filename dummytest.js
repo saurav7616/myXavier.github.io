@@ -208,8 +208,6 @@ function calculateAverage(arr) {
 
 console.log('Average: test ch', calculateAverage([1, 2, 3, 4, 5]));
 
-console.log('Fibonacci Sequence:', generateFibonacci(10));
-
 // Dummy function to capitalize a string
 function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
