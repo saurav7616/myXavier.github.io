@@ -213,7 +213,6 @@ function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-console.log('Capitalized String:', capitalize('hello'));
 
 // Dummy function to flatten an array
 function flattenArray(arr) {
