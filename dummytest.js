@@ -200,12 +200,6 @@ function findMin(arr) {
 
 console.log('Min Number:', findMin([1, 2, 3, 4, 5]));
 
-// Dummy function to calculate average
-function calculateAverage(arr) {
-    const sum = arr.reduce((total, num) => total + num, 0);
-    return sum / arr.length;
-}
-
 console.log('Average: test ch', calculateAverage([1, 2, 3, 4, 5]));
 
 // Dummy function to generate Fibonacci sequence
